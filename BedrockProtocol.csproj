@@ -6,4 +6,8 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <PackageReference Include="BinaryUtils" Version="1.2.0-dev" />
+    </ItemGroup>
+
 </Project>
