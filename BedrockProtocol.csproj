@@ -7,7 +7,73 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="BinaryUtils" Version="1.2.0-dev" />
+      <Content Include=".git\COMMIT_EDITMSG" />
+      <Content Include=".git\config" />
+      <Content Include=".git\description" />
+      <Content Include=".git\FETCH_HEAD" />
+      <Content Include=".git\HEAD" />
+      <Content Include=".git\hooks\applypatch-msg.sample" />
+      <Content Include=".git\hooks\commit-msg.sample" />
+      <Content Include=".git\hooks\fsmonitor-watchman.sample" />
+      <Content Include=".git\hooks\post-update.sample" />
+      <Content Include=".git\hooks\pre-applypatch.sample" />
+      <Content Include=".git\hooks\pre-commit.sample" />
+      <Content Include=".git\hooks\pre-merge-commit.sample" />
+      <Content Include=".git\hooks\pre-push.sample" />
+      <Content Include=".git\hooks\pre-rebase.sample" />
+      <Content Include=".git\hooks\pre-receive.sample" />
+      <Content Include=".git\hooks\prepare-commit-msg.sample" />
+      <Content Include=".git\hooks\push-to-checkout.sample" />
+      <Content Include=".git\hooks\update.sample" />
+      <Content Include=".git\index" />
+      <Content Include=".git\info\exclude" />
+      <Content Include=".git\logs\HEAD" />
+      <Content Include=".git\logs\refs\heads\dev" />
+      <Content Include=".git\logs\refs\heads\stable" />
+      <Content Include=".git\logs\refs\remotes\origin\dev" />
+      <Content Include=".git\logs\refs\remotes\origin\HEAD" />
+      <Content Include=".git\objects\02\605951406a92b7042f0e01068db378a14f303f" />
+      <Content Include=".git\objects\05\70807c21d4bb56ba4eecda542b2341d5fc8ab4" />
+      <Content Include=".git\objects\05\aafa67bb6679d52b67c638884c817517595f16" />
+      <Content Include=".git\objects\08\e1cf7e393ef35816fe0f4842cbb3a995cac485" />
+      <Content Include=".git\objects\1d\56e99fd8b3c5e96bf60850c2e9fc1a3777f03f" />
+      <Content Include=".git\objects\23\a9dd80437e3b3061cbbab3c2bade2244e031a7" />
+      <Content Include=".git\objects\24\526faf4e2d9ec42b3b5b208c2dd327946767be" />
+      <Content Include=".git\objects\2f\f420251bdf25dcaeeaec75df3ba9b1a825db42" />
+      <Content Include=".git\objects\4d\5d0dc1e06bafb6b39b39ac99634e987f37f36a" />
+      <Content Include=".git\objects\50\e5993544f18b1544c15854a302f80ccdadff1d" />
+      <Content Include=".git\objects\5a\f6cd9a9f9a43618c66c1e6952a49cc04dba08b" />
+      <Content Include=".git\objects\5c\6240b657e67c1efbb079cf853867ca5e6b0b26" />
+      <Content Include=".git\objects\64\9b5cc9bdfd493080f92ee51c8fca82ebf44e06" />
+      <Content Include=".git\objects\6f\b664440bf7cd9ed657f0f3bb77885e79595121" />
+      <Content Include=".git\objects\7e\6df947c0ea70f8c86771d2129550ab0def0f62" />
+      <Content Include=".git\objects\a6\c973c7e0fea393c40b13215155b096478b7ba5" />
+      <Content Include=".git\objects\ab\f9f38ece13a17a6f4a24b2f049866f44e4ea4e" />
+      <Content Include=".git\objects\ac\645b9380064ed2c564f06e2f2ee48a8fdf58a0" />
+      <Content Include=".git\objects\b9\2df42be4f2d268e4aa9f6031207f36f99b34ce" />
+      <Content Include=".git\objects\bb\22f03a8a2815af20b5fd1a40087a3b0ccaf5e6" />
+      <Content Include=".git\objects\c0\fedaf774a3eb1e956f01c0d2005f6761e53b9a" />
+      <Content Include=".git\objects\c9\6c61a16f285d553fddd9d1944b8742b1593309" />
+      <Content Include=".git\objects\d8\09ef4dbd994d57462890b09b27c5fa29bbc908" />
+      <Content Include=".git\objects\e8\3a47171fd01892bd6156781ebe89842e0290aa" />
+      <Content Include=".git\objects\eb\2460e910fa21c0fb88747ca553b619fb62b722" />
+      <Content Include=".git\objects\f4\f680161f75062e3487e03c1c2c8c885a922977" />
+      <Content Include=".git\objects\pack\pack-75a48250aa1fc5b7ee93e369f9444403891b44a4.idx" />
+      <Content Include=".git\objects\pack\pack-75a48250aa1fc5b7ee93e369f9444403891b44a4.pack" />
+      <Content Include=".git\packed-refs" />
+      <Content Include=".git\refs\heads\dev" />
+      <Content Include=".git\refs\heads\stable" />
+      <Content Include=".git\refs\remotes\origin\dev" />
+      <Content Include=".git\refs\remotes\origin\HEAD" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include=".git\objects\info" />
+      <Folder Include=".git\refs\tags" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Binary\Binary.csproj" />
     </ItemGroup>
 
 </Project>
